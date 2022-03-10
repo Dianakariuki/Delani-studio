@@ -3,3 +3,12 @@
   padding: 200px;
   text-align: center;
 }
+#logo{
+    position: relative;
+    bottom: 50px;
+
+}
+#mouse{
+  position: relative;
+  top: 150px;
+}

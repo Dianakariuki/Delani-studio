@@ -46,3 +46,10 @@
 #abt{
 text-align: center;
 }
+.sixth-section{
+    background-image: url(assets/bg/cimage.jpg);
+    
+}
+form{
+    padding: 100px;
+}

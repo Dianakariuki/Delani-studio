@@ -17,3 +17,9 @@
     text-align: center;
     padding: 50px;
 }
+.third-section{
+    text-align: center;
+    background-image: url(assets/bg/simage.jpg);
+    padding: 150px;
+    color: white;
+}

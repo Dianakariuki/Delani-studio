@@ -2,6 +2,7 @@
     background-image: url(assets/bg/himg.jpg);
   padding: 200px;
   text-align: center;
+  color: white;
 }
 #logo{
     position: relative;

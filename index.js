@@ -31,3 +31,8 @@ $(document).ready(function () {
      });
      //dev icon js
 })
+
+//portfolio 
+$(document).ready(function () {
+    
+})

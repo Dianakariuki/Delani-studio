@@ -53,3 +53,16 @@ text-align: center;
 form{
     padding: 100px;
 }
+.section-seven{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+  
+}
+#contact{
+    text-align: center;
+    padding-top:50px;
+    color: white;
+}

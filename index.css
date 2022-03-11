@@ -66,3 +66,8 @@ form{
     padding-top:50px;
     color: white;
 }
+.product-one, .dev-one, .design-one{
+    display: none;
+    font-family: 'Copse', serif;
+    font-size: 16px;
+  }

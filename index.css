@@ -73,3 +73,26 @@ form{
     
     text-align: center;
   }
+
+  .text1,.text2,.text3,.text4,.text5,.text6,.text7,.text8{
+      display:none;
+      background-color: white;
+      position: relative;
+      bottom: 150px;
+      text-align: center;
+      width: 100%;
+      
+      
+  }
+  
+  .portfolio{
+      margin-left: 50px;
+      margin-right: 50px;
+  }
+  
+  #footer{
+     position: relative;
+      top: 30px;
+      
+      text-align: center;
+  }

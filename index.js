@@ -34,5 +34,69 @@ $(document).ready(function () {
 
 //portfolio 
 $(document).ready(function () {
-    
-})
+    $("#work1").mouseover(function(){
+        $("#project-one").show();
+      }).mouseout(function(){
+        $("#project-one").hide();
+      });
+
+      $("#work2").mouseover(function(){
+        $("#project-two").show();
+      }).mouseout(function(){
+        $("#project-two").hide();
+      });
+
+      $("#work3").mouseover(function(){
+        $("#project-three").show();
+      }).mouseout(function(){
+        $("#project-three").hide();
+      });
+
+      $("#work4").mouseover(function(){
+        $("#project-four").show();
+      }).mouseout(function(){
+        $("#project-four").hide();
+      });
+    })
+    $(document).ready(function () {
+      $("#work5").mouseover(function(){
+        $("#project-five").show();
+      }).mouseout(function(){
+        $("#project-five").hide();
+      });
+
+      $("#work6").mouseover(function(){
+        $("#project-six").show();
+      }).mouseout(function(){
+        $("#project-six").hide();
+      });
+
+      $("#work7").mouseover(function(){
+        $("#project-seven").show();
+      }).mouseout(function(){
+        $("#project-seven").hide();
+      });
+
+      $("#work8").mouseover(function(){
+        $("#project-eight").show();
+      }).mouseout(function(){
+        $("#project-eight").hide();
+      });
+      $(document).ready(function(){
+        $("contact").submit(function(event){
+          // event.preventDefault();
+          var name = $("#f1").val();
+          var email = $("#f2").val();
+          var message = $("f3").val();
+          if ($("#f1").val() && $("f2").val()){
+            alert (name + ", we have received your message. Thank you for reaching out to us.");
+          }
+          else {
+            alert("Please enter your name and email!");
+          }
+          
+        });
+      });
+
+
+    });

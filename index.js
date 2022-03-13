@@ -82,6 +82,7 @@ $(document).ready(function () {
       }).mouseout(function(){
         $("#project-eight").hide();
       });
+      
       $(document).ready(function(){
         $("contact").submit(function(event){
           // event.preventDefault();

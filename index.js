@@ -82,22 +82,63 @@ $(document).ready(function () {
       }).mouseout(function(){
         $("#project-eight").hide();
       });
-      
-      $(document).ready(function(){
-        $("contact").submit(function(event){
-          // event.preventDefault();
-          var name = $("#f1").val();
-          var email = $("#f2").val();
-          var message = $("f3").val();
-          if ($("#f1").val() && $("f2").val()){
-            alert (name + ", we have received your message. Thank you for reaching out to us.");
-          }
-          else {
-            alert("Please enter your name and email!");
-          }
-          
-        });
-      });
+      // contact
 
+      $(document).ready(function(){
+        $('#contact').MailChimpForm({
+          
+            url:'//jqueryscript.us6.list-manage.com/subscribe/post?u=d4d8a0f45ce17e5ef2708771f&amp;id=06a33bc6c9',
+          
+            fields:'0:EMAIL,1:FULLNAME',
+          
+            submitSelector:'#submit-form'
+          
+          });
+
+
+
+          $('#contact').MailChimpForm({
+            
+              url: $form.attr('action'),
+            
+              fields:'',
+            
+              inputSelector:'input',
+            
+              submitSelector:'',
+            
+              customMessages: {}
+            
+            });
+            
+          /*  $("#submit-form").submit(function(event){
+               event.preventDefault();
+              var name = $("input#f1").val();
+              var email = $("input#f2").val();
+              var message = $("textarea#f3").val();
+              if ($("input#f1").val() && $("input#f2").val()){
+                alert (name + ", we have received your message. Thank you for reaching out to us.");
+              }
+              else {
+                alert("Please enter your name and email!");
+              }
+              
+            });*/
+      });
+      $("#contact").MailChimpForm({
+        
+          onSubmit: (message) => {
+        
+           // console.error(message);
+          
+           alert ( "we have received your message. Thank you for reaching out to us.");
+          }
+         
+        
+        
+        
+        
+        });
 
     });
+

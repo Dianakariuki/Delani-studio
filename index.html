@@ -224,12 +224,12 @@ Then we help translate them into effective and elegant solutions.
       <div class="container" >
 
         <h1 id="contact"> CONTACT US</h1>
-    <form id="contact" action="https://gmail.us3.list-manage.com/subscribe/post" method="POST">
+    <form id="contact">
       <div class="row" >
       <div class="col-sm-6 ">
         <!-- Name input -->
         <div class="mb-5">
-          <input type="text" id="f1" class="form-control" />
+          <input type="text" name="FULLNAME"id="f1" class="form-control" />
           <label class="form-label" for="form4Example1">Name</label>
         </div>
       </div>
@@ -237,7 +237,7 @@ Then we help translate them into effective and elegant solutions.
       <div class="col-sm-6 ">
         <!-- Email input -->
         <div class=" mb-5">
-          <input type="email" id="f2" class="form-control" />
+          <input type="email" name="EMAIL"id="f2" class="form-control" />
           <label class="form-label" for="form4Example2">Email address</label>
         </div>
       </div>
@@ -251,7 +251,7 @@ Then we help translate them into effective and elegant solutions.
      
       
         <!-- Submit button -->
-        <button type="submit" class="btn btn-primary btn-block mb-5">Submit</button>
+        <button type="submit-form" id="f4" class="btn btn-primary btn-block mb-5">Submit</button>
       </form>
       </div>
    </section>
@@ -282,5 +282,14 @@ Then we help translate them into effective and elegant solutions.
              
    </section>
    <script src="index.js"></script>
+
+   <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+
+        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+
+        crossorigin="anonymous"></script>
+
+<script src="jquery-mailchimp.min.js"></script>
+
 </body>
 </html>

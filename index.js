@@ -84,34 +84,9 @@ $(document).ready(function () {
       });
       // contact
 
-      $(document).ready(function(){
-        $('#contact').MailChimpForm({
-          
-            url:'//jqueryscript.us6.list-manage.com/subscribe/post?u=d4d8a0f45ce17e5ef2708771f&amp;id=06a33bc6c9',
-          
-            fields:'0:EMAIL,1:FULLNAME',
-          
-            submitSelector:'#submit-form'
-          
-          });
-
-
-
-          $('#contact').MailChimpForm({
+     
             
-              url: $form.attr('action'),
-            
-              fields:'',
-            
-              inputSelector:'input',
-            
-              submitSelector:'',
-            
-              customMessages: {}
-            
-            });
-            
-          /*  $("#submit-form").submit(function(event){
+           /* $("#submit-form").submit(function(event){
                event.preventDefault();
               var name = $("input#f1").val();
               var email = $("input#f2").val();
@@ -123,22 +98,32 @@ $(document).ready(function () {
                 alert("Please enter your name and email!");
               }
               
-            });*/
-      });
-      $("#contact").MailChimpForm({
+            })
         
-          onSubmit: (message) => {
-        
-           // console.error(message);
-          
-           alert ( "we have received your message. Thank you for reaching out to us.");
-          }
-         
-        
+        */
         
         
         
         });
 
-    });
+        function button(){
+          var f1=document.getElementById("f1").value;
+          var f2= document.getElementById("f2").value;
+          var f3= document.getElementById("f3").value;
+          //form validation
 
+          if(f1.length ==""){
+            alert("Please enter your name");
+
+       } else if(f2.length==""){
+        alert("Please enter your email");
+       } else if(f3.length ==""){
+        alert("Please enter your message");
+       } else{
+        alert (f1 + ", we have received your message. Thank you for reaching out to us.");
+       }
+        }
+
+      var date=document.getElementById("date").innerHTML=date;
+
+      let date = new Date.getFullYear();

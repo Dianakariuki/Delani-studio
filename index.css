@@ -111,3 +111,15 @@ color: black;
   .ic{
       margin-left: 50px;
   }
+  #f1,#f2,#f3{
+      background: transparent;
+      color: white;
+      
+  }
+  ::placeholder{
+     
+      opacity: 1;
+      font-size: 25px;
+      color:white;
+  }
+ 

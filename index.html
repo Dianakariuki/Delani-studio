@@ -224,34 +224,38 @@ Then we help translate them into effective and elegant solutions.
       <div class="container" >
 
         <h1 id="contact"> CONTACT US</h1>
-    <form id="contact">
+    <form id="contact" action="https://gmail.us14.list-manage.com/subscribe/post?u=3fc7fa99d13d2b9c945821397&amp;id=e84b989313" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
       <div class="row" >
       <div class="col-sm-6 ">
         <!-- Name input -->
         <div class="mb-5">
-          <input type="text" name="FULLNAME"id="f1" class="form-control" />
           <label class="form-label" for="form4Example1">Name</label>
+          <input type="text" placeholder="Name" name="FULLNAME" id="f1" class="form-control" />
+         
         </div>
       </div>
 
       <div class="col-sm-6 ">
         <!-- Email input -->
         <div class=" mb-5">
-          <input type="email" name="EMAIL"id="f2" class="form-control" />
           <label class="form-label" for="form4Example2">Email address</label>
+          <input type="email"placeholder="Email" name="EMAIL" id="f2" class="form-control" />
+         
         </div>
       </div>
       </div>
         <!-- Message input -->
         <div class=" mb-5">
-          <textarea class="form-control" id="f3" rows="4"></textarea>
           <label class="form-label" for="form4Example3">Message</label>
+          <textarea class="form-control"placeholder="Your message here..." id="f3" rows="4"></textarea>
+          
         </div>
       
      
       
         <!-- Submit button -->
-        <button type="submit-form" id="f4" class="btn btn-primary btn-block mb-5">Submit</button>
+       <!-- <button type="submit-form"  onclick="button()" id="f4" class="btn btn-primary btn-block mb-5">Submit</button>-->
+      <input type="button"  id="submit" onclick = "button() "value="submit">
       </form>
       </div>
    </section>
@@ -275,21 +279,16 @@ Then we help translate them into effective and elegant solutions.
             <p>
               DELANI STUDIO
               <br>
-              2022
+              2019
+
             </p>
+          
 </div>
 
              
    </section>
    <script src="index.js"></script>
 
-   <script src="https://code.jquery.com/jquery-1.12.4.min.js"
-
-        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
-
-        crossorigin="anonymous"></script>
-
-<script src="jquery-mailchimp.min.js"></script>
-
+ 
 </body>
 </html>

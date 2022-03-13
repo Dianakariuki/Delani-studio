@@ -124,6 +124,4 @@ $(document).ready(function () {
        }
         }
 
-      var date=document.getElementById("date").innerHTML=date;
-
-      let date = new Date.getFullYear();
+   

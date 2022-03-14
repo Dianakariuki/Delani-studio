@@ -122,6 +122,6 @@ $(document).ready(function () {
        } else{
         alert (f1 + ", we have received your message. Thank you for reaching out to us.");
        }
-        }
+       window.open("https://gmail.us14.list-manage.com/subscribe/post?u=3fc7fa99d13d2b9c945821397&amp;id=e84b989313");     }
 
    

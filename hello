@@ -1,0 +1,17 @@
+  <div class="mb-5">
+          <label class="form-label" for="form4Example1">Name</label>
+          <input type="text"  name="FULLNAME" id="f1" class="form-control" required/>
+         
+        </div>
+
+         <div class=" mb-5">
+          <label class="form-label" for="form4Example2">Email address</label>
+          <input type="email" name="EMAIL" id="f2" class="form-control"required />
+         
+        </div>
+
+        <div class=" mb-5">
+          <label class="form-label" for="form4Example3">Message</label>
+          <textarea class="form-control"id="f3" rows="4"></textarea>
+          
+        </div>
